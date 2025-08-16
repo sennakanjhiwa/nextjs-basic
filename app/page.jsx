@@ -1,4 +1,9 @@
-import Heading from "../components/Heading";
+import Heading from "@/components/Heading";
+
+export const metadata = {
+  title: "Belajar NEXT.js Fundamental",
+  description: "Situs ini adalah untuk belajar membuat project NEXT.js",
+};
 
 export default function Home() {
   console.log("Hello Om");

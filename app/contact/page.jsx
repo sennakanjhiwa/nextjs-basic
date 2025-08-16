@@ -1,4 +1,9 @@
-import Heading from "../../components/Heading";
+import Heading from "@/components/Heading";
+
+export const metadata = {
+  title: "Contact",
+  description: "Halaman Kontak Kami",
+};
 
 export default function Contact() {
   return (

@@ -1,4 +1,9 @@
-import Heading from "../../components/Heading";
+import Heading from "@/components/Heading";
+
+export const metadata = {
+  title: "About",
+  description: "Halaman tentang kami",
+};
 
 export default function About() {
   return (

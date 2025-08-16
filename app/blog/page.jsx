@@ -1,32 +1,31 @@
-import Heading from "../../components/Heading";
-import Link from "next/link";
+import Heading from "@/components/Heading";
+import PostCard from "@/components/PostCard";
+import { getAllPosts } from "@/lib/post";
 
-export default function BlogPage() {
+export const metadata = {
+  title: "Blog",
+  description: "Halaman blog kami",
+};
+
+export default async function BlogPage() {
+  const posts = await getAllPosts();
+  console.log(posts);
   return (
     <div className="mx-auto">
       <Heading>My Next.js Blog Page</Heading>
       <hr className="border-gray-300 mb-6" />
       <div className="space-y-6">
-        <div className="p-4 border border-slate-800/20 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-          <h2 className="text-2xl font-semibold">
-            <Link
-              href="/blog/judul-berita"
-              className="text-slate-600 hover:underline"
-            >
-              Judul Berita
-            </Link>
-          </h2>
-        </div>
-        <div className="p-4 border border-slate-800/20 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-          <h2 className="text-2xl font-semibold">
-            <Link
-              href="/blog/latihan-route-next"
-              className="text-slate-600 hover:underline"
-            >
-              Latihan Route Next
-            </Link>
-          </h2>
-        </div>
+        {posts.map((post) => (
+          <PostCard
+            key={post.slug}
+            title={post.title}
+            href={`/blog/${post.slug}`}
+            image={post.image}
+            description={post.description}
+            date={post.date}
+            author={post.author}
+          />
+        ))}
       </div>
     </div>
   );

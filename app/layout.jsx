@@ -1,14 +1,18 @@
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
+import { inter } from "@/app/fonts";
+
+export const metadata = {
+  title: {
+    default: "Next.js Basic",
+    template: "%s | Next.js Basic",
+  },
+  description: "Situs ini adalah untuk belajar membuat project NEXT.js",
+};
 
 export default function Layout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nextjs Basic</title>
-      </head>
+    <html lang="en" className={`${inter.className}`}>
       <body className="min-h-screen flex flex-col bg-gray-200 text-gray-800">
         <header className="bg-slate-600 text-white shadow-md">
           <Navbar />

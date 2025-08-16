@@ -9,7 +9,7 @@ export default function Layout({ children }) {
 
 function Sidebar() {
   return (
-    <aside className="w-full lg:w-64 border-s border-slate-600/25 p-6">
+    <aside className="w-full lg:w-64 border-t lg:border-t-0 lg:border-s border-slate-600/25 p-6">
       <nav>
         <div className="text-lg font-semibold mb-4 text-gray-700">
           Popular Posts
