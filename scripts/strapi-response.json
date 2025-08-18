@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 6,
+      "documentId": "kn3qgf3y6tzh6gx7615ibepi",
+      "slug": "belajar-strapi-untuk-content-management-system-project-next-js",
+      "title": "Belajar Strapi Untuk Content Management System Project NextJS",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+      "publishedAt": "2025-08-17T13:20:35.943Z",
+      "body": "Lorem **ipsum** dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.\n\n## Integer Tincidunt Cras Dapibus Vivamus\nAenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.\n\nCurabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.\n\nNullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+      "image": {
+        "id": 1,
+        "documentId": "r8oe2sps1b5g9f6z4esgfte8",
+        "url": "/uploads/Kanjhiwa_c2cae97370.png"
+      },
+      "author": {
+        "id": 1,
+        "documentId": "ubdxm7ylkgv3r6bah4cqs1o4",
+        "username": "Admin",
+        "email": "admin@mail.com"
+      }
+    },
+    {
+      "id": 5,
+      "documentId": "z4hqxv052gv6xutp90c4i7dg",
+      "slug": "apakah-next-js-adalah-bagian-dari-framework-react-js",
+      "title": "Apakah NextJS Adalah Bagian Dari Framework ReactJS?",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+      "publishedAt": "2025-08-17T13:14:19.602Z",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.\n\nDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.\n\nAliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.\n\nNam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nun.",
+      "image": {
+        "id": 2,
+        "documentId": "rui7zm2og1hcdu1ivfkao35j",
+        "url": "/uploads/laravel11_directadmin_final_fixed_856f6cba73.png"
+      },
+      "author": {
+        "id": 1,
+        "documentId": "ubdxm7ylkgv3r6bah4cqs1o4",
+        "username": "Admin",
+        "email": "admin@mail.com"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 2,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}
