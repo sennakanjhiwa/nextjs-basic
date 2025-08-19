@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function PostCard({
@@ -10,10 +11,12 @@ export default function PostCard({
 }) {
   return (
     <div className="p-4 border border-slate-800/20 rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-start space-x-4">
-      <img
+      <Image
         src={image}
         alt={title}
         className="w-22 h-22 object-cover rounded-md"
+        width={88}
+        height={88}
       />
       <div>
         <h2 className="text-2xl font-semibold">

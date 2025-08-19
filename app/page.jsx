@@ -6,7 +6,6 @@ export const metadata = {
 };
 
 export default function Home() {
-  console.log("Hello Om");
   return (
     <div className="p-6">
       <Heading>My Next.js App</Heading>

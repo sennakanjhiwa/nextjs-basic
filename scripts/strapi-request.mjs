@@ -10,11 +10,11 @@ const url =
       populate: {
         image: { fields: ["url"] },
         author: {
-          fields: ["username", "email"], // ambil field yang kamu butuhkan
+          fields: ["username"], // ambil field yang kamu butuhkan
         },
       },
       sort: ["publishedAt:desc"],
-      pagination: { pageSize: 2 },
+      pagination: { pageSize: 3, page: 1 },
     },
     { encodeValuesOnly: true }
   );
